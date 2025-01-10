@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'SBSansText';
+    src: url('./fonts/SBSansText-Thin.eot');
+    src: url('./fonts/SBSansText-Thin.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SBSansText-Thin.woff2') format('woff2'),
+    url('./fonts/SBSansText-Thin.woff') format('woff'),
+    url('./fonts/SBSansText-Thin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansText';
+    src: url('./fonts/SBSansText-Light.eot');
+    src: url('./fonts/SBSansText-Light.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SBSansText-Light.woff2') format('woff2'),
+    url('./fonts/SBSansText-Light.woff') format('woff'),
+    url('./fonts/SBSansText-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansText';
+    src: url('./fonts/SBSansText-Regular.eot');
+    src: url('./fonts/SBSansText-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SBSansText-Regular.woff2') format('woff2'),
+    url('./fonts/SBSansText-Regular.woff') format('woff'),
+    url('./fonts/SBSansText-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansText';
+    src: url('./fonts/SBSansText-Medium.eot');
+    src: url('./fonts/SBSansText-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SBSansText-Medium.woff2') format('woff2'),
+    url('./fonts/SBSansText-Medium.woff') format('woff'),
+    url('./fonts/SBSansText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansText';
+    src: url('./fonts/SBSansText-Semibold.eot');
+    src: url('./fonts/SBSansText-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SBSansText-Semibold.woff2') format('woff2'),
+    url('./fonts/SBSansText-Semibold.woff') format('woff'),
+    url('./fonts/SBSansText-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansText';
+    src: url('./fonts/SBSansText-Bold.eot');
+    src: url('./fonts/SBSansText-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SBSansText-Bold.woff2') format('woff2'),
+    url('./fonts/SBSansText-Bold.woff') format('woff'),
+    url('./fonts/SBSansText-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansText';
+    src: url('./fonts/SBSansText-Heavy.eot');
+    src: url('./fonts/SBSansText-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SBSansText-Heavy.woff2') format('woff2'),
+    url('./fonts/SBSansText-Heavy.woff') format('woff'),
+    url('./fonts/SBSansText-Heavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansInterface';
+    src: url('./fonts/SBSansUI-Light.eot');
+    src: url('./fonts/SBSansUI-Light.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SBSansUI-Light.woff2') format('woff2'),
+    url('./fonts/SBSansUI-Light.woff') format('woff'),
+    url('./fonts/SBSansUI-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansInterface';
+    src: url('./fonts/SBSansUI-Regular.eot');
+    src: url('./fonts/SBSansUI-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SBSansUI-Regular.woff2') format('woff2'),
+    url('./fonts/SBSansUI-Regular.woff') format('woff'),
+    url('./fonts/SBSansUI-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansInterface';
+    src: url('./fonts/SBSansUI-Semibold.eot');
+    src: url('./fonts/SBSansUI-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SBSansUI-Semibold.woff2') format('woff2'),
+    url('./fonts/SBSansUI-Semibold.woff') format('woff'),
+    url('./fonts/SBSansUI-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansInterface';
+    src: url('./fonts/SBSansUI-Bold.eot');
+    src: url('./fonts/SBSansUI-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SBSansUI-Bold.woff2') format('woff2'),
+    url('./fonts/SBSansUI-Bold.woff') format('woff'),
+    url('./fonts/SBSansUI-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansDisplay';
+    src: url('src/styles/fonts/SBSansDisplay-Thin.eot');
+    src:
+            url('src/styles/fonts/SBSansDisplay-Thin.eot') format('embedded-opentype'),
+            url('src/styles/fonts/SBSansDisplay-Thin.woff2') format('woff2'),
+            url('src/styles/fonts/SBSansDisplay-Thin.woff') format('woff'),
+            url('src/styles/fonts/SBSansDisplay-Thin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansDisplay';
+    src: url('src/styles/fonts/SBSansDisplay-Light.eot');
+    src:
+            url('src/styles/fonts/SBSansDisplay-Light.eot') format('embedded-opentype'),
+            url('src/styles/fonts/SBSansDisplay-Light.woff2') format('woff2'),
+            url('src/styles/fonts/SBSansDisplay-Light.woff') format('woff'),
+            url('src/styles/fonts/SBSansDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansDisplay';
+    src: url('src/styles/fonts/SBSansDisplay-Regular.eot');
+    src:
+            url('src/styles/fonts/SBSansDisplay-Regular.eot') format('embedded-opentype'),
+            url('src/styles/fonts/SBSansDisplay-Regular.woff2') format('woff2'),
+            url('src/styles/fonts/SBSansDisplay-Regular.woff') format('woff'),
+            url('src/styles/fonts/SBSansDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansDisplay';
+    src: url('src/styles/fonts/SBSansDisplay-Semibold.eot');
+    src:
+            url('src/styles/fonts/SBSansDisplay-Semibold.eot') format('embedded-opentype'),
+            url('src/styles/fonts/SBSansDisplay-Semibold.woff2') format('woff2'),
+            url('src/styles/fonts/SBSansDisplay-Semibold.woff') format('woff'),
+            url('src/styles/fonts/SBSansDisplay-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBSansDisplay';
+    src: url('src/styles/fonts/SBSansDisplay-Bold.eot');
+    src:
+            url('src/styles/fonts/SBSansDisplay-Bold.eot') format('embedded-opentype'),
+            url('src/styles/fonts/SBSansDisplay-Bold.woff2') format('woff2'),
+            url('src/styles/fonts/SBSansDisplay-Bold.woff') format('woff'),
+            url('src/styles/fonts/SBSansDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
