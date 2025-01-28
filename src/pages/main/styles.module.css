@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+.headerContainer{
+    background-image: url("./img/headerBackground.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 980px;
+    padding: 16px 370px 82px 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    height: 72px;
+}
+
+.headerLogo{
+    width: 137px;
+    height: 72px;
+}
+
+.headerButtonsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 831px;
+    height: 44px;
+}
+
+.scrollButtonsContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 625px;
+    height: 25px;
+}
+
+.scrollButton{
+    font-family: "Nunito Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.55px;
+    text-align: left;
+    color: #FDFDFD;
+}
+
+.consultButton{
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    background-color: #1A3E3E;
+    color: #FDFDFD;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.searchProgramContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 352px;
+    width: 1180px;
+}
+
+.searchProgramDescription{
+    font-family: "Nunito Sans", serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    text-align: left;
+    color: #FDFDFD;
+}
+
+.searchButtonsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1180px;
+    height: 161px;
+    background: #FFFFFF33;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+    padding: 40px 42px;
+}
+.searchButtonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 270px;
+    height: 81px;
+}
+.searchButtonDescription{
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #FDFDFD;
+}
+
+.searchProgrammButton{
+    background-color: #FDFDFD;
+    padding: 16px 36px;
+    border-radius: 4px;
+}
+
+
+.calendar{
+    display: flex;
+    
+
+}
+
+.hideClaendar{
+    display: none;
+}
+
+.calendarVisionButton{
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px;
+    background-color: none;
+    border: 1px solid #E1E3E4;
+    border-radius: 8px;
+    color: #FDFDFD;
+}
+
+.calendarVisionText{
+    width: 212px;
+    height: 24px;
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.hideCalendarVisionButton{
+    display: none;
+}
+
+.CalendarLogo{
+    height: 18px;
+    width: 18px;
+}
+
+
+  
