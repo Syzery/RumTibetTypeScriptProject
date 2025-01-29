@@ -155,5 +155,101 @@
     width: 18px;
 }
 
+.aboutTripPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 726px;
+    width: 1920px;
+}
 
-  
+.aboutTripInforamtion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1180px;
+    height: 526px;
+}
+
+.imgContainer{
+    position: relative;
+    width: 480px;
+    height: 526px;
+}
+
+.aboutPictureOne{
+    position: absolute;
+    background-image: url("./img/aboutFirst.jpg");
+    z-index: 1;
+    width: 350px;
+    height: 400px;
+    border-radius: 24px;
+}
+
+.aboutPictureTwo{
+    position: absolute;
+    background-image: url("./img/aboutSecond.jpg");
+    z-index: 2; 
+    right: 0; 
+    bottom: 0;
+    width: 350px;
+    height: 400px;
+    border-radius: 24px;
+}
+
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 580px;
+    height: 398px;
+}
+
+.aboutTitleText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 580px;
+    height: 104px;
+}
+
+.aboutTourText{
+    font-family: "Nunito Sans", serif;
+    color: #F2BE22;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 182px;
+    height: 20px;
+}
+
+.callTrailText{
+    font-family: "Nunito Sans", serif;
+    color: #18121E;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+    width: 580px;
+    height: 76px;
+}
+
+.historyMountainsText{
+    font-family: "Nunito Sans", serif;
+    color: #18121E;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 580px;
+    height: 162px;
+}
+.programmTourButton{
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    background-color: #1A3E3E;
+    color: #FDFDFD;
+    padding: 16px 36px;
+    border-radius: 4px;
+    max-width: 200px;
+}   
