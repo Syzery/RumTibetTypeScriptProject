@@ -180,7 +180,6 @@
 .aboutPictureOne{
     position: absolute;
     background-image: url("./img/aboutFirst.jpg");
-    z-index: 1;
     width: 350px;
     height: 400px;
     border-radius: 24px;
@@ -189,7 +188,7 @@
 .aboutPictureTwo{
     position: absolute;
     background-image: url("./img/aboutSecond.jpg");
-    z-index: 2; 
+    z-index: 1; 
     right: 0; 
     bottom: 0;
     width: 350px;
@@ -213,17 +212,17 @@
     height: 104px;
 }
 
-.aboutTourText{
+.headTitle{
     font-family: "Nunito Sans", serif;
     color: #F2BE22;
     font-size: 24px;
     font-weight: 400;
     line-height: 20px;
-    width: 182px;
+    width: 222px;
     height: 20px;
 }
 
-.callTrailText{
+.subHead{
     font-family: "Nunito Sans", serif;
     color: #18121E;
     font-size: 32px;
@@ -233,7 +232,7 @@
     height: 76px;
 }
 
-.historyMountainsText{
+.baseText{
     font-family: "Nunito Sans", serif;
     color: #18121E;
     font-size: 18px;
@@ -242,6 +241,7 @@
     width: 580px;
     height: 162px;
 }
+
 .programmTourButton{
     font-family: "Nunito Sans", serif;
     font-size: 16px;

@@ -131,10 +131,10 @@ export const MainPage = () => {
                     </div>
                     <div className={styles.aboutContainer}>
                         <div className={styles.aboutTitleText}>
-                            <h1 className={styles.aboutTourText}>о нашем походе</h1>
-                            <h2 className={styles.callTrailText}>Исследуйте все горные массивы мира вместе с нами</h2> 
+                            <h1 className={styles.headTitle}>о нашем походе</h1>
+                            <h2 className={styles.subHead}>Исследуйте все горные массивы мира вместе с нами</h2> 
                         </div>
-                        <p className={styles.historyMountainsText}>Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                        <p className={styles.baseText}>Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
                         <button className={styles.programmTourButton}>Программа тура</button>
                     </div>
                 </div>
