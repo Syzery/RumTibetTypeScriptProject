@@ -1,3 +1,16 @@
+import {PottyGuide} from "../pages/main/img/pottyGuide";
+import {SafeHike} from "../pages/main/img/safeHike";
+import {LoyalePrice} from "../pages/main/img/loyalePrice";
+import ourTourOne from "../pages/main/img/ourTourOne.jpg"
+import ourTourTwo from "../pages/main/img/ourTourOne.jpg"
+import ourTourThree from "../pages/main/img/ourTourOne.jpg"
+import blogPicturiesOne from "../pages/main/img/blogPicturiesOne.png"
+import blogPicturiesTwo from "../pages/main/img/blogPicturiesTwo.png"
+import blogPicturiesThree from "../pages/main/img/blogPicturiesThree.png"
+import blogPicturiesFour from "../pages/main/img/blogPicturiesFour.png"
+
+
+
 export const country = [
   { value: '01', label: 'Usa' },
   { value: '02', label: 'Russia' },
@@ -13,3 +26,23 @@ export const people = [
   { value: '9', label: '9' },
   { value: '10', label: '10' },
 ];
+
+
+export const miniLabelData =[{
+  id: 1,
+  img: PottyGuide,
+  title: 'Опытный гид',
+  description:'Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.' 
+}, 
+{
+  id: 2,
+  img: SafeHike,
+  title:'Безопасный поход',
+  description: 'Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.'
+},
+{
+  id: 3,
+  img: LoyalePrice,
+  title: 'Лояльные цены',
+  description: 'Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.'
+}]
