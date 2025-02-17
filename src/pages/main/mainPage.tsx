@@ -3,7 +3,7 @@ import { country } from '../../utils/constants';
 import { RumtibetLogo } from './img/RumTibetLogo';
 import { CalendarLogo } from './img/CalendarLogo';
 import styles from './styles.module.css';
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Select from 'react-select';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
@@ -116,13 +116,28 @@ export const MainPage = () => {
                                     }}
                                      options={people} 
                                      placeholder={"Участники"} 
-                                     
                                  />
                                 <p className={styles.searchButtonDescription}>минимум 4 человека</p>
                             </div>
                             <button className={styles.searchProgrammButton}>Найти программу</button>
                         </div>
                     </div>
+            </div>
+            <div className={styles.aboutTripPage}>
+                <div className={styles.aboutTripInforamtion}>
+                    <div className={styles.imgContainer}>
+                        <div className={styles.aboutPictureOne}></div>
+                        <div className={styles.aboutPictureTwo}></div>
+                    </div>
+                    <div className={styles.aboutContainer}>
+                        <div className={styles.aboutTitleText}>
+                            <h1 className={styles.headTitle}>о нашем походе</h1>
+                            <h2 className={styles.subHead}>Исследуйте все горные массивы мира вместе с нами</h2> 
+                        </div>
+                        <p className={styles.baseText}>Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
+                        <button className={styles.programmTourButton}>Программа тура</button>
+                    </div>
+                </div>
             </div>
         </div>
     );
