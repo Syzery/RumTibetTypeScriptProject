@@ -7,11 +7,9 @@ import React, { useEffect, useState } from 'react';
 import Select from 'react-select';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
-import { formatDate } from 'react-calendar/dist/cjs/shared/dateFormatter';
-
+import {MiniLabel} from "./helper/miniLabel";
 
 type ValuePiece = Date | null;
-
 type Value = ValuePiece | [ValuePiece, ValuePiece];
 
 
@@ -137,6 +135,29 @@ export const MainPage = () => {
                         <p className={styles.baseText}>Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.</p>
                         <button className={styles.programmTourButton}>Программа тура</button>
                     </div>
+                </div>
+            </div>
+            <div className={styles.bestOfferPage}>
+                <div className={styles.bestOfferGroup}>
+                    <div className={styles.textBestOfferConatiner}>
+                        <div className={styles.headerBestOffer}>
+                            <h1 className={styles.headOurTour}>наше предложение</h1>
+                            <h2 className={styles.subHeadsBestForU}>Лучшие программы для тебя</h2>
+                        </div>
+                        <p className={styles.historeOurTourText}>Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа.</p>
+                        <div className={styles.CardContainer}>
+                            <MiniLabel ide={1} className0={styles.miniLabelConttainer} className={styles.miniLabelPictures} className1={styles.miniLabelTextGroup} className2={styles.miniLabelTitle} className3={styles.miniLabelDescription}/>
+                            <MiniLabel ide={2} className0={styles.miniLabelConttainer} className={styles.miniLabelPictures} className1={styles.miniLabelTextGroup} className2={styles.miniLabelTitle} className3={styles.miniLabelDescription}/>
+                            <MiniLabel ide={3} className0={styles.miniLabelConttainer} className={styles.miniLabelPictures} className1={styles.miniLabelTextGroup} className2={styles.miniLabelTitle} className3={styles.miniLabelDescription}/>
+                        </div>
+                        <button className={styles.costProgrammButton}>Стоимость программ</button>
+                    </div>
+                <div className={styles.imgGroup}>
+                    <div className={styles.bestOfferPicturesOne}></div>
+                    <div className={styles.bestOfferPicturesTwo}></div>
+                    <div className={styles.bestOfferPicturesThre}></div>
+                    <div className={styles.bestOfferPicturesFour}></div>
+                </div>
                 </div>
             </div>
         </div>
