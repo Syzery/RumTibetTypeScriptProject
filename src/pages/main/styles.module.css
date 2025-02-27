@@ -505,3 +505,382 @@
     border-radius: 0px 50px 0px 50px;
     background-image: url(./img/offerPicturesFour.png);
 }
+
+.popularDestinationPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 370px 100px 370px;
+    width: 1920px;
+    height: 898px;
+}
+
+.headerShareVersionConatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 580px;
+    height: 66px;
+}
+
+.titleVersionTourist{
+    font-family: "Nunito Sans", serif;
+    color: #F2BE22;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 267px;
+    height: 20px;
+}
+
+.subTitlePopulatTour{
+    font-family: "Nunito Sans", serif;
+    color: #18121E;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+    width: 580px;
+    height: 38px;
+    text-align: center;
+}
+
+.picturiesConatiner{
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    height: 500px;
+}
+
+.popularTourContainerOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    padding: 50px 0px 0px 0px;
+    width: 380px;
+    height: 500px;
+    border-radius: 32px;
+    background-image: url(img/ourTourOne.png);
+}
+
+.popularTourContainerTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    padding: 50px 0px 0px 0px;
+    width: 380px;
+    height: 500px;
+    border-radius: 32px;
+    background-image: url(img/ourTourTwo.png);
+}
+
+.popularTourContainerThree{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    padding: 50px 0px 0px 0px;
+    width: 380px;
+    height: 500px;
+    border-radius: 32px;
+    background-image: url(img/ourTourThree.png);
+}
+
+.costConatiner{
+    display: flex;
+    justify-content: space-between;
+    width: 380px;
+    height: 90px;
+    padding: 20px 32px 23px 32px;
+    border-radius: 0px 0px 32px 32px;
+    backdrop-filter: blur(6px)
+}
+
+.discriptionContainer{
+    display: flex;
+    flex-direction: column;
+    height: 47px;
+    width: 195px;
+}
+
+.nameTourText{
+    font-family: "Nunito Sans", serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: #FDFDFD;
+    height: 29px;
+    width: 195px;
+}
+
+.explanationText{
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #FDFDFD;
+    height: 18px;
+    width: 195px;
+}
+
+.priceContainer{
+    width: 86px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 4px;
+    font-family: "Nunito Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FDFDFD;
+    background-color: #FFFFFF4D;
+}
+.popularTourImg{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: end;
+    padding: 50px 0px 0px 0px;
+    width: 380px;
+    height: 500px;
+    background-image: #f3f3f3;
+}
+
+.starContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px 4px 8px;
+    width: 65px;
+    height: 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 4px;
+    backdrop-filter: blur(4px);
+    background-color: #FDFDFD66;
+    
+}
+
+.starImg{
+    width: 24px;
+    height: 24px;
+    background-image: url('./img/star.svg');
+}
+
+.starRaiting{
+    width: 21px;
+    height: 18px;
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #1A3E3E;
+}
+
+.tourDescription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 380px;
+    height: 90px;
+    padding: 20px 32px 23px 32px;
+    border-radius: 0px 0px 32px 32px;
+    backdrop-filter: blur(6px);
+    background-color: #FFFFFF33;
+}
+
+.desciptionTour{
+    display: flex;
+    flex-wrap: wrap;
+    height: 37px;
+    width: 195px;
+}
+
+.titleNameTour{
+    font-family: "Nunito Sans", serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    width: 195px;
+    height: 29px;
+    color: #FDFDFD;
+}
+
+.subTitleTour{
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 195px;
+    height: 18px;
+    color: #FDFDFD;
+}
+
+.costTour{
+    width: 86px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    background-color: #FFFFFF4D;
+    font-family: "Nunito Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FDFDFD;
+}
+
+.rateTourButton{
+    width: 244px;
+    height: 52px;
+    padding: 16px 36px 16px 36px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #1A3E3E;
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #FDFDFD;
+}
+
+.shareImpressionPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 370px 100px 370px;
+    justify-content: space-between;
+    background-color: #F3F5F4;
+    width: 1920px;
+    height: 1036px;
+}
+
+.headerShareBlogConatiner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 580px;
+    height: 66px;
+}
+
+.titleShareImpression{
+    font-family: "Nunito Sans", serif;
+    color:#F2BE22;
+    width: 276px;
+    height: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;;
+}
+
+.subTitleBlog{
+    font-family: "Nunito Sans", serif;
+    color: #18121E;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38.4px;
+    text-align: center;
+    width: 580px;
+    height: 38px;
+}
+
+.imgAdviseContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1180px;
+    height: 648px
+}
+
+.adviseConatiner{
+    display: flex;
+    justify-content: space-between;
+    width: 580px;
+    height: 312px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.textAdviseContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 294px;
+    height: 280px;
+    padding: 16px 0px 16px 0px;
+}
+
+.titleAdvise{
+    font-family: "Nunito Sans", serif;
+    color: #18121E;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    width: 294px;
+    height: 96px;
+}
+
+.descriptionAdvise{
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 294px;
+    height: 96px;
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    color: #18121E;
+}
+
+.adviseButtonContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 294px;
+    height: 20px;
+}
+
+.dateAdvise{
+    width: 76px;
+    height: 20px;
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #F2BE22;
+}
+
+.buttonAdvise{
+    width: 97px;
+    height: 20px;   
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #1A3E3E;
+}
+
+.imgAdvise{
+    width: 230px;
+    height: 280px;
+    border-radius: 6px;
+}
+
+.otherMaterialButton{
+    width: 220px;
+    height: 52px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #1A3E3E;
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    color: #FDFDFD;
+}
+
