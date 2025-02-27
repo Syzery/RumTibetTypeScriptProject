@@ -8,6 +8,7 @@ import Select from 'react-select';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import {MiniLabel} from "./helper/miniLabel";
+import { OurTour } from './helper/ourTour';
 
 type ValuePiece = Date | null;
 type Value = ValuePiece | [ValuePiece, ValuePiece];
@@ -159,6 +160,18 @@ export const MainPage = () => {
                     <div className={styles.bestOfferPicturesFour}></div>
                 </div>
                 </div>
+            </div>
+            <div className={styles.popularDestinationPage}>
+                <div className={styles.headerShareVersionConatiner}>
+                    <h1 className={styles.titleVersionTourist}>по версии отдыхающих</h1>
+                    <h2 className={styles.subTitlePopulatTour}>Популярные направления</h2>
+                </div>
+                <div className={styles.picturiesConatiner}>
+                    <OurTour ide={1} className0={styles.popularTourContainerOne} className={styles.starContainer} className1={styles.starImg} className2={styles.starRaiting} className3={styles.costConatiner} className4={styles.discriptionContainer} className5={styles.nameTourText} className6={styles.explanationText} className7={styles.priceContainer}/>
+                    <OurTour ide={2} className0={styles.popularTourContainerTwo} className={styles.starContainer} className1={styles.starImg} className2={styles.starRaiting} className3={styles.costConatiner} className4={styles.discriptionContainer} className5={styles.nameTourText} className6={styles.explanationText} className7={styles.priceContainer}/>
+                    <OurTour ide={3} className0={styles.popularTourContainerThree} className={styles.starContainer} className1={styles.starImg} className2={styles.starRaiting} className3={styles.costConatiner} className4={styles.discriptionContainer} className5={styles.nameTourText} className6={styles.explanationText} className7={styles.priceContainer}/>
+                </div>
+                <div className={styles.rateTourButton}>Рейтинг направлений</div>
             </div>
         </div>
     );
