@@ -803,6 +803,35 @@
     height: 312px;
     padding: 16px;
     border-radius: 10px;
+    background-color: #FDFDFD;
+}
+
+.blogPicturiesOne{
+    width: 230px;
+    height: 280px;
+    border-radius: 6px;
+    background-image: url(./img/blogPicturiesOne.png);
+}
+
+.blogPicturiesTwo{
+    width: 230px;
+    height: 280px;
+    border-radius: 6px;
+    background-image: url(./img/blogPicturiesTwo.png);
+}
+
+.blogPicturiesThree{
+    width: 230px;
+    height: 280px;
+    border-radius: 6px;
+    background-image: url(./img/blogPicturiesThree.png);
+}
+
+.blogPicturiesFour{
+    width: 230px;
+    height: 280px;
+    border-radius: 6px;
+    background-image: url(./img/blogPicturiesFour.png);
 }
 
 .textAdviseContainer{
@@ -821,7 +850,7 @@
     font-weight: 700;
     line-height: 32px;
     width: 294px;
-    height: 96px;
+    max-height: 96px;
 }
 
 .descriptionAdvise{
@@ -831,9 +860,6 @@
     line-height: 20px;
     width: 294px;
     height: 96px;
-    white-space: nowrap;
-    overflow: hidden; 
-    text-overflow: ellipsis; 
     color: #18121E;
 }
 
@@ -884,3 +910,70 @@
     color: #FDFDFD;
 }
 
+.photoPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 370px 198px 370px;
+    width: 1920px;
+    height: 1006px;
+}
+
+.photoShare{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 580;
+    height: 66;
+}
+
+.titlePhotoReport{
+    width: 129;
+    height: 20;    
+    font-family: "Nunito Sans", serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: #F2BE22;
+}
+
+.subTitleShareImpression{
+    width: 580;
+    height: 38;
+    font-family: "Nunito Sans", serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #18121E;
+}
+
+.photoContainer{
+    display: flex;
+    width: 1180px;
+    height: 520px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.imageMemoriesContainer{
+    display: flex;
+    width: 1180px;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.ourPinterestButtom{
+    display: flex;
+    padding: 16px 36px;
+    width: 178;
+    height: 52;
+    border-radius: 4px;
+    background-color: #1A3E3E;
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1.2%;
+    color: #FDFDFD;
+}

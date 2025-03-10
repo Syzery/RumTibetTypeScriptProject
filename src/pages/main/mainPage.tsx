@@ -8,7 +8,14 @@ import Select from 'react-select';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import {MiniLabel} from "./helper/miniLabel";
-import { OurTour } from './helper/ourTour';
+import {OurTour} from './helper/ourTour';
+import {ReviewsOffer} from "./helper/reviewsOffer"
+import imageMemoryOne from "./img/imageMemoriesOne.png"
+import imageMemoryTwo from "./img/imageMemoriesTwo.png"
+import imageMemoryThree from "./img/imageMemoriesThree.png"
+import imageMemoryFour from "./img/imageMemoriesFour.png"
+import imageMemoryFive from "./img/imageMemoriesFive.png"
+import imageMemorySix from "./img/imageMemoriesSix.png"
 
 type ValuePiece = Date | null;
 type Value = ValuePiece | [ValuePiece, ValuePiece];
@@ -171,7 +178,40 @@ export const MainPage = () => {
                     <OurTour ide={2} className0={styles.popularTourContainerTwo} className={styles.starContainer} className1={styles.starImg} className2={styles.starRaiting} className3={styles.costConatiner} className4={styles.discriptionContainer} className5={styles.nameTourText} className6={styles.explanationText} className7={styles.priceContainer}/>
                     <OurTour ide={3} className0={styles.popularTourContainerThree} className={styles.starContainer} className1={styles.starImg} className2={styles.starRaiting} className3={styles.costConatiner} className4={styles.discriptionContainer} className5={styles.nameTourText} className6={styles.explanationText} className7={styles.priceContainer}/>
                 </div>
-                <div className={styles.rateTourButton}>Рейтинг направлений</div>
+                <button className={styles.rateTourButton}>Рейтинг направлений</button>
+            </div>
+            <div className={styles.shareImpressionPage}>
+                <div className={styles.headerShareBlogConatiner}>
+                    <h1 className={styles.titleShareImpression}>делимся впечатлениями</h1>
+                    <h2 className={styles.subTitleBlog}>Блог о путешествиях</h2>
+                </div>
+                <div className={styles.imgAdviseContainer}>
+                    <ReviewsOffer ide={1} className={styles.blogPicturiesOne} className0={styles.adviseConatiner} className1={styles.textAdviseContainer} className2={styles.titleAdvise} className3={styles.descriptionAdvise} className4={styles.adviseButtonContainer} className5={styles.dateAdvise} className6={styles.buttonAdvise}/>
+                    <ReviewsOffer ide={2} className={styles.blogPicturiesTwo} className0={styles.adviseConatiner} className1={styles.textAdviseContainer} className2={styles.titleAdvise} className3={styles.descriptionAdvise} className4={styles.adviseButtonContainer} className5={styles.dateAdvise} className6={styles.buttonAdvise}/>
+                    <ReviewsOffer ide={3} className={styles.blogPicturiesThree} className0={styles.adviseConatiner} className1={styles.textAdviseContainer} className2={styles.titleAdvise} className3={styles.descriptionAdvise} className4={styles.adviseButtonContainer} className5={styles.dateAdvise} className6={styles.buttonAdvise}/>
+                    <ReviewsOffer ide={4} className={styles.blogPicturiesFour} className0={styles.adviseConatiner} className1={styles.textAdviseContainer} className2={styles.titleAdvise} className3={styles.descriptionAdvise} className4={styles.adviseButtonContainer} className5={styles.dateAdvise} className6={styles.buttonAdvise}/>
+                </div>
+                <button className={styles.otherMaterialButton}>Другие материалы</button>
+            </div>
+            <div className={styles.photoPage}>
+                <div className={styles.photoShare}>
+                    <h1 className={styles.titlePhotoReport}>фото-отчет</h1>
+                    <h2 className={styles.subTitleShareImpression}>Делимся впечатлениями</h2>
+                </div>
+                <div className={styles.photoContainer}>
+                    <div className={styles.imageMemoriesContainer}>
+                        <img src={imageMemoryOne} className={styles.photoReport1}/>
+                        <img src={imageMemoryTwo} className={styles.photoReport2}/>
+                        <img src={imageMemoryThree} className={styles.photoReport3}/>
+                    </div>
+                    <div className={styles.imageMemoriesContainer}>
+                        <img src={imageMemoryFour} className={styles.photoReport4}/>
+                        <img src={imageMemoryFive} className={styles.photoReport5}/>
+                        <img src={imageMemorySix} className={styles.photoReport6}/>
+                    </div>
+                    
+                </div>
+                <button className={styles.ourPinterestButtom}>Наш pinterest</button>
             </div>
         </div>
     );
