@@ -977,3 +977,134 @@
     letter-spacing: 1.2%;
     color: #FDFDFD;
 }
+
+.futorPage{
+    display: flex;
+    width: 1920px;
+    height: 521px;
+    padding: 178px 370px 80px 370px;
+    background-color: #1A3E3E;
+}
+
+.companuRUMTIBET{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 480px;
+    height: 263px;
+}
+
+.textCompanyInFutor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 101px;
+    width: 480px;
+}
+
+.titleTextCompanyInFutor{
+    font-family: "Nunito Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F3F5F4;
+    width: 480px;
+    height: 24px;
+}
+
+.descriptionTextCompanyInFutor{
+    font-family: "Nunito Sans", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 456px;
+    height: 60px;
+}
+
+.futorContacts{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 82px;
+    width: 400px;
+}
+
+.mailFutorContacts{
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #FFFFFF;
+}
+
+.numberFutorContacts{
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #FFFFFF;
+}
+
+.futorContactsContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 269px;
+    height: 18px;
+}
+
+.iconSosial{
+    display: flex;
+    justify-content: space-between;
+    width: 176px;
+    height: 32px;
+}
+
+.ourServicesContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 280px;
+    height: 234px;
+}
+
+.ourServicesTitle{
+    font-family: "Nunito Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    width: 206px;
+    height: 24px;
+    color: #F3F5F4;
+}
+.ourServicesLinksContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 280px;
+    height: 190px;
+}
+
+.servisLink{
+    font-family: "Nunito Sans", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FDFDFD;
+    width: 280px;
+    height: 18px;
+}
+
+.servisLink:hover{
+    font-family: "Nunito Sans", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #F2BE22;
+}
