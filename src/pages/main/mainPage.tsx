@@ -21,6 +21,7 @@ import { CircleSkype } from './img/circleSkype';
 import { CircleTelegram } from './img/circleTelegram';
 import { CircleVK } from './img/circleVK';
 import {serviceLink1,serviceLink2,serviceLink3,serviceLink4,serviceLink5,serviceLink6} from '../../utils/constants'
+import {importantLink1,importantLink2,importantLink3,importantLink4} from '../../utils/constants'
 
 type ValuePiece = Date | null;
 type Value = ValuePiece | [ValuePiece, ValuePiece];
@@ -219,6 +220,7 @@ export const MainPage = () => {
                 <button className={styles.ourPinterestButtom}>Наш pinterest</button>
             </div>
             <div className={styles.futorPage}>
+                <div></div>
                 <div className={styles.companuRUMTIBET}>
                     <div className={styles.textCompanyInFutor}>
                         <h1 className={styles.titleTextCompanyInFutor}>Компания «РумТибет»</h1>
@@ -250,6 +252,19 @@ export const MainPage = () => {
                         <h1 className={styles.servisLink}>{serviceLink6}</h1>
                     </div>
                 </div>
+                <div className={styles.importantContainer}>
+                    <h1 className={styles.importantForTravelTitle}>Важно для путешествий</h1>
+                    <div className={styles.importantForTravelContainer}>
+                        <h1 className={styles.servisLink}>{importantLink1}</h1>
+                        <h1 className={styles.servisLink}>{importantLink2}</h1>
+                        <h1 className={styles.servisLink}>{importantLink3}</h1>
+                        <h1 className={styles.servisLink}>{importantLink4}</h1>
+                    </div>
+                </div>
+            </div>
+            <div className={styles.futorEnd}>
+                <h1 className={styles.IPTitle}>ИП Исаченков А.Е., 2025</h1>
+                <h1 className={styles.processingЗolicyTitle}>Политика обработки персональных данных</h1>     
             </div>
         </div>
     );

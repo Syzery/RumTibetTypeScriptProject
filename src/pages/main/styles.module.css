@@ -1096,7 +1096,7 @@
     line-height: 18px;
     color: #FDFDFD;
     width: 280px;
-    height: 18px;
+    
 }
 
 .servisLink:hover{
@@ -1107,4 +1107,55 @@
     text-decoration: underline;
     text-decoration-style: solid;
     color: #F2BE22;
+}
+
+.importantContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 280px;
+    height: 200px;
+}
+
+.importantForTravelTitle{
+    font-family: "Nunito Sans", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F3F5F4;
+}
+
+.importantForTravelContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 280px;
+    height: 156px;
+}
+
+.futorEnd{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 370px;
+    width: 1920;
+    height: 66;
+    background-color:#18121E;
+}
+
+.IPTitle{
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.processingЗolicyTitle{
+    font-family: "Nunito Sans", serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #FFFFFF;
 }
