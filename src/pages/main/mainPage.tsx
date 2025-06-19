@@ -220,7 +220,7 @@ export const MainPage = () => {
                 <button className={styles.ourPinterestButtom}>Наш pinterest</button>
             </div>
             <div className={styles.futorPage}>
-                <div></div>
+                
                 <div className={styles.companuRUMTIBET}>
                     <div className={styles.textCompanyInFutor}>
                         <h1 className={styles.titleTextCompanyInFutor}>Компания «РумТибет»</h1>
@@ -264,7 +264,7 @@ export const MainPage = () => {
             </div>
             <div className={styles.futorEnd}>
                 <h1 className={styles.IPTitle}>ИП Исаченков А.Е., 2025</h1>
-                <h1 className={styles.processingЗolicyTitle}>Политика обработки персональных данных</h1>     
+                <h1 className={styles.processingPolicyTitle}>Политика обработки персональных данных</h1>     
             </div>
         </div>
     );
