@@ -88,3 +88,15 @@ export const reviewsOfferDate =[{
   date: '01/04/2023',
   button: 'читать статью'
 }]
+
+export const serviceLink1 = '> Прогулки в горы летом'
+export const serviceLink2 = '> Зимние походы в горы'
+export const serviceLink3 = '> Посещение храмов в горах'
+export const serviceLink4 = '> Экстремальные виды туризма'
+export const serviceLink5 = '> Походы в джунглях Амазонии'
+export const serviceLink6 = '> Поездка в Африку'
+
+export const importantLink1 = '> Как собрать в долгий поход?'
+export const importantLink2 = '> Жизненно важные предметы для похода'
+export const importantLink3 = '> Медицинская страховка, гарантии безопасности'
+export const importantLink4 = '> Если вы врач - загляните сюда'

@@ -16,6 +16,12 @@ import imageMemoryThree from "./img/imageMemoriesThree.png"
 import imageMemoryFour from "./img/imageMemoriesFour.png"
 import imageMemoryFive from "./img/imageMemoriesFive.png"
 import imageMemorySix from "./img/imageMemoriesSix.png"
+import { CirclePinterest } from './img/circlePinterest';
+import { CircleSkype } from './img/circleSkype';
+import { CircleTelegram } from './img/circleTelegram';
+import { CircleVK } from './img/circleVK';
+import {serviceLink1,serviceLink2,serviceLink3,serviceLink4,serviceLink5,serviceLink6} from '../../utils/constants'
+import {importantLink1,importantLink2,importantLink3,importantLink4} from '../../utils/constants'
 
 type ValuePiece = Date | null;
 type Value = ValuePiece | [ValuePiece, ValuePiece];
@@ -212,6 +218,53 @@ export const MainPage = () => {
                     
                 </div>
                 <button className={styles.ourPinterestButtom}>Наш pinterest</button>
+            </div>
+            <div className={styles.futorPage}>
+                
+                <div className={styles.companuRUMTIBET}>
+                    <div className={styles.textCompanyInFutor}>
+                        <h1 className={styles.titleTextCompanyInFutor}>Компания «РумТибет»</h1>
+                        <h2 className={styles.descriptionTextCompanyInFutor}>Его корни уходят в один фрагмент
+                             классической латыни 45 года н.э., то есть более двух тысячелетий назад.
+                              Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney.</h2>
+                    </div>
+                    <div className={styles.futorContacts}>
+                        <div className={styles.futorContactsContainer}>
+                            <p className={styles.mailFutorContacts}>info@domain.com</p>
+                            <p className={styles.numberFutorContacts}>+7 (123) 456-78-90</p>
+                        </div>
+                        <div className={styles.iconSosial}>
+                            <a href=''><CircleTelegram/></a>
+                            <a href=''><CircleVK/></a>
+                            <a href=''><CirclePinterest/></a>
+                            <a href=''><CircleSkype/></a>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.ourServicesContainer}>
+                    <h1 className={styles.ourServicesTitle}>Наши услуги</h1>
+                    <div className={styles.ourServicesLinksContainer}>
+                        <h1 className={styles.servisLink}>{serviceLink1}</h1>
+                        <h1 className={styles.servisLink}>{serviceLink2}</h1>
+                        <h1 className={styles.servisLink}>{serviceLink3}</h1>
+                        <h1 className={styles.servisLink}>{serviceLink4}</h1>
+                        <h1 className={styles.servisLink}>{serviceLink5}</h1>
+                        <h1 className={styles.servisLink}>{serviceLink6}</h1>
+                    </div>
+                </div>
+                <div className={styles.importantContainer}>
+                    <h1 className={styles.importantForTravelTitle}>Важно для путешествий</h1>
+                    <div className={styles.importantForTravelContainer}>
+                        <h1 className={styles.servisLink}>{importantLink1}</h1>
+                        <h1 className={styles.servisLink}>{importantLink2}</h1>
+                        <h1 className={styles.servisLink}>{importantLink3}</h1>
+                        <h1 className={styles.servisLink}>{importantLink4}</h1>
+                    </div>
+                </div>
+            </div>
+            <div className={styles.futorEnd}>
+                <h1 className={styles.IPTitle}>ИП Исаченков А.Е., 2025</h1>
+                <h1 className={styles.processingPolicyTitle}>Политика обработки персональных данных</h1>     
             </div>
         </div>
     );
